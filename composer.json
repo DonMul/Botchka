@@ -1,0 +1,21 @@
+{
+  "name": "jmul/Botchka",
+  "description": "PHP Driven IRC bot",
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Joost Mul",
+      "email": "joost@jmul.net",
+      "homepage": "http://jmul.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Botchka\\": "src/"
+    }
+  }
+}
